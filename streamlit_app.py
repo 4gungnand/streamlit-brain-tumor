@@ -43,7 +43,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 def load_model_classification():
     '''Load the model for classification'''
     try:
-        vgg16_model_id = "1NGR8cIFuHT8Za1tJR1wQjNn_ZFLEDB3H"
+        vgg16_model_id = "1bqj2_Uo2wm0QaBD030obmxFh_rA0p4de"
         vgg16_model_path = "vgg16_model_g.h5"
         if not os.path.exists(vgg16_model_path):
             try:
@@ -62,7 +62,7 @@ def load_model_classification():
 def load_model_segmentation():
     '''Load the model for segmentation'''
     try:
-        unet_model_id = "1aoabD5njPZOfslOAkm1o-7WfUkrQ4xxw"
+        unet_model_id = "1aTgv7DcX8yZDElWNoVx8PJFUMZpIW7e7"
         unet_model_path = "unet_model_g.h5"
         if not os.path.exists(unet_model_path):
             try:
